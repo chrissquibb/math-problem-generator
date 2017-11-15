@@ -30,6 +30,6 @@ public class MathProblem
     @Override
     public String toString()
     {
-        return getFirstOperand_()+getOperatorType_().getVisual()+getSecondOperand_()+"=_______";
+        return getFirstOperand_()+" "+getOperatorType_().getVisual()+" "+getSecondOperand_()+"=_______";
     }
 }
